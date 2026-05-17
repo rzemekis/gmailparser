@@ -5,12 +5,11 @@ import sqlite3
 import time
 import logging
 from email.header import decode_header
-from config import EMAIL_PASS, EMAIL_USER
+from config import EMAIL_PASS, EMAIL_USER, SENDER_FILTER
 
 # --- НАСТРОЙКИ ---
 IMAP_SERVER = "imap.gmail.com"
-SENDER_FILTER = "robertkhairullin13@gmail.com"  # От кого ждем письма
-CHECK_INTERVAL = 60  # Интервал проверки (в секундах)
+CHECK_INTERVAL = 5  # Интервал проверки (в секундах)
 
 # Настройка логирования (ошибки и успехи будут в файле worker.log)
 logging.basicConfig(
