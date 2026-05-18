@@ -4,7 +4,7 @@
 
 // create config.py file near the main.py
 
-// in config.py you need to write it:
+// in config.py you need to write:
 
 EMAIL_USER = "youremail@gmail.com"
 
