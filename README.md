@@ -4,10 +4,10 @@
 
 // create config.py file near the main.py
 
-// in config.py you need to write:
+// in config.py write:
 
 EMAIL_USER = "youremail@gmail.com"
 
-EMAIL_PASS = "your password here"  ##Gmail needs app password to access your box via scripts
+EMAIL_PASS = "your password here"  /Gmail needs app password to access your box via scripts
 
-SENDER_FILTER = "whose letters do we read"
+SENDER_FILTER = "letters from who do we read"
